@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Cosabi - Support</title>
+                <style>
+                    body {
+                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                        line-height: 1.6;
+                        margin: 0;
+                        padding: 20px;
+                        background-color: #f5f5f7;
+                        color: #1d1d1f;
+                    }
+                    .container {
+                        max-width: 800px;
+                        margin: 20px auto;
+                        padding: 20px;
+                        background-color: #ffffff;
+                        border-radius: 12px;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    }
+                    h1, h2, h3 {
+                        color: #000000;
+                    }
+                    h1 {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    h3 {
+                        border-bottom: 1px solid #e5e5e5;
+                        padding-bottom: 8px;
+                        margin-top: 25px;
+                    }
+                    p, li {
+                        font-size: 16px;
+                    }
+                    a {
+                        color: #007aff;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    .footer {
+                        text-align: center;
+                        margin-top: 40px;
+                        font-size: 14px;
+                        color: #6e6e73;
+                    }
+                </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Support &amp; FAQ</h1>
+
+            <h2>How to Use the App</h2>
+
+            <h3>How does it work?</h3>
+            <p>
+            Cosabi helps you remember the two things that are easiest to forget: <strong>how long it has been since something</strong>, and <strong>what it cost back then</strong>. Switch between "Track" and "Price" at the top left; the "+" at the bottom adds something new.
+            </p>
+            <p>
+            <strong>1. Track</strong><br>
+            Tap "+" to add something to track and set when to start counting (or leave it unstarted for now). Later, open its detail page and tap "Add Record (photo / note)" to take a photo or write a note, and decide whether this entry restarts the timer. You can also set a reminder.
+            </p>
+            <p>
+            <strong>2. Price</strong><br>
+            Tap "+" and use "Scan with Camera" to photograph a tag. The app recognizes the name and price and suggests an existing item or a new one; you can also type everything in by hand. Each item's detail page shows a comparison with the same month's history, monthly price patterns, and prices by store.
+            </p>
+            <p>
+            <strong>3. Tags &amp; Places</strong><br>
+            Tags organize items and can be nested (for example, "Fruit › Mango"). Places are the stores where you buy things. Manage both in "Settings › Tags &amp; Places."
+            </p>
+
+            <h3>1. Why is the recognized name or price wrong?</h3>
+            <p>
+            Cosabi uses the device's built-in text recognition, and accuracy depends on lighting, angle, glare, and price tag design. Recognized candidates appear as chips you can tap to fill in; if they are wrong, just edit by hand. What is saved is always what you finally confirm.<br><br>
+            Tip: face the price tag straight on, keep the image sharp, and avoid glare.
+            </p>
+
+            <h3>2. What does "Reset Timer" mean?</h3>
+            <p>
+            The timer for a tracked item starts from the later of its "start time" and the "most recent restart."<br><br>
+            When you add an entry, "Reset Timer" is on by default (for example, you put in a new toothbrush, so counting begins again from now). If you only want to leave a photo or note without affecting the timer, turn it off.
+            </p>
+
+            <h3>3. How are prices compared?</h3>
+            <p>
+            The unit of the item's latest entry is used as the baseline:
+            </p>
+            <p>
+            <strong>Same-month comparison</strong>: the latest price is compared with the average of other entries from the same month in past years. Within ±10% counts as "about the same."<br>
+            <strong>Unit conversion</strong>: jin (Taiwan jin = 600 g; 500 g in the Simplified Chinese version) and kilogram convert to each other; per piece and per set (see next question) can be compared with each other. Entries whose units cannot be compared are left out of the statistics, and the page tells you how many were excluded.<br>
+            <strong>Store comparison</strong>: lists each store's latest price, and hints when another store is more than 2% cheaper than the latest entry.
+            </p>
+
+            <h3>4. How do I record a multi-piece set?</h3>
+            <p>
+            When adding a price, choose "Per set" as the unit and enter how many pieces are in the set. The app works out the <strong>average per piece</strong> and uses it to compare with other entries, so different package sizes can be compared side by side. The screen still shows what you originally entered (for example, "$120 / per set of 3").
+            </p>
+
+            <h3>5. How do I nest and organize tags?</h3>
+            <p>
+            Go to "Settings › Tags &amp; Places," then long-press a tag and drag it onto another tag to make it a sub-tag; drag it onto "Top level" at the top to remove nesting. You can also tap the "⋯" on the right of a tag to choose "Add Sub-tag," "Move to…," or "Rename."<br><br>
+            Tags that are still in use, or that have sub-tags, cannot be deleted; remove their usage or move the sub-tags first. When filtering on the list screen, choosing a parent tag also shows items under its sub-tags.
+            </p>
+
+            <h3>6. When are reminders sent?</h3>
+            <p>
+            Each tracked item has at most one reminder: its current timer start plus the interval you set (days / weeks / months). The reminder is rescheduled automatically after every check-in, restart, or edit.<br><br>
+            Make sure Cosabi is allowed to send notifications in your device's system settings.
+            </p>
+
+            <h3>7. How are photos stored? Do they take much space?</h3>
+            <p>
+            Photos are stored in the space-saving HEIC format. Tracking photos keep their original resolution; price tag photos are shrunk after recognition because they are usually kept only for reference.
+            </p>
+
+            <h3>8. What does a backup include?</h3>
+            <p>
+            A backup file (<code>.cosabi</code>) contains all tracking, prices, tags, places, and photos, encrypted with the password you set. When restoring, you can choose to replace existing data or add to it.<br><br>
+            <strong>Remember your backup password:</strong> we cannot reset it, and without it the backup cannot be restored. Export a backup from Settings before switching phones or reinstalling the app.
+            </p>
+
+            <h3>9. Can I undo a deletion?</h3>
+            <p>
+            Deletion cannot currently be undone. Deleting a tracked item also deletes all its entries and photos. If your data matters, back it up regularly.
+            </p>
+
+            <h2>Contact Us</h2>
+
+            <h3>How do I contact the developer?</h3>
+            <p>
+            Suggestions and feedback are always welcome.<br>
+            Please reach us by email: <a href="mailto:cooperlin0131@gmail.com">cooperlin0131@gmail.com</a><br>
+            We will reply as soon as we can.
+            </p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Cooper Lin. All rights reserved.</p>
+        </div>
+    </body>
+</html>
